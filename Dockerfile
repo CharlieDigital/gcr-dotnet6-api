@@ -14,4 +14,4 @@ COPY --from=build /app/published-app /app
 ENV ASPNETCORE_ENVIRONMENT=production
 ENV IS_GOOGLE_CLOUD=true
 
-ENTRYPOINT [ "dotnet", "/app/grc-dotnet6-api.dll" ]
+ENTRYPOINT [ "dotnet", "/app/gcr-dotnet6-api.dll" ]
